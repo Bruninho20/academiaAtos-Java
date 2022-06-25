@@ -1,0 +1,23 @@
+
+.pai{
+    display:flex;
+    background-color: blue;
+    width: 500px;
+    height: 450px;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;  
+}
+
+.div1{
+ background-color: red;
+ width: 100px;
+ height: 80px; 
+ text-align: center;
+ line-height: 80px;
+ position: relative;
+ margin-left: 80%;
+}
