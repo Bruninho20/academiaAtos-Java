@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Montserrat:wght@100;200;300&family=Raleway:wght@100;200&family=Titillium+Web:ital,wght@0,300;1,200;1,700&display=swap');
+
+/* GLOBAL STYLES */
+*{
+	margin:0;
+	padding:0;
+    text-decoration: none;	
+}
+
+.vo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;   
+}
+
+.tabela1{
+    display: flex;
+    flex-direction: column;
+    display:inline-block ;
+ }
+
+ .tabela2{
+    display: flex;
+    justify-content: center;
+    margin-left: 286px;
+ }
+
+html{
+    background-color:rgb(0, 0, 0);
+    font-family: 'Joan', serif;
+    scroll-behavior:smooth; 
+}
+
+h1{
+   text-align: center;
+   font-size: 90px; 
+   color: rgb(252, 173, 55);
+}
+h2{
+    font-size: 30px;
+    margin-right: 5px;  
+}
+p{
+    font-size: 13px; 
+    margin-right: 5px; 
+}
+
+a{
+    text-decoration: none;
+
+}
+
+#topo{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: 1px solid rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0); 
+    color: rgb(255, 0, 0); 
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#texto{
+    font-size: 11px;
+}
+#texto2{
+    font-size: 11px;
+}
+#texto3{
+    font-size: 11px;
+}
+#texto4{
+    font-size: 12px;
+}
+
+span{
+    font-size: 13px;
+    float: left;
+    display:flex ;
+    margin-bottom: 60%;
+    margin-left: 2px;  
+}
+
+.info{
+    height: 90%;  
+    border: 2px solid rgb(115, 253, 115);
+    color: rgb(115, 253, 115);
+    border-radius: 7px;
+
+
+}
+
+.info1{
+    height: 100%; 
+    color: green;
+    border: 2px solid green;
+    border-radius: 7px
+   
+}
+.info3{
+    background-color: black;
+    border: 2px solid pink;
+    overflow: hidden;
+    border-radius: 7px ;
+    color: pink;
+    height: 100%;
+   align-items: initial;
+}
+
+.info4_a{
+    background-color: black;
+    border-radius: 7px ;
+    border: 2px solid rgb(39, 95, 77);
+    color:rgb(39, 95, 77) ;
+    height: 100%;
+    
+}
+
+.info4{
+    background-color: black;
+    border: 2px solid aquamarine;
+    color: aquamarine;
+    height: 100%; 
+    border-radius: 7px;
+}
+
+.info5{
+    background-color: black;
+    border: 2px solid rgb(46, 138, 138) ;
+    color: rgb(46, 138, 138);
+    height: 100%;
+    border-radius: 7px;
+}
+
+.info6{
+    background-color: black;
+    border: 2px solid rgb(43, 73, 206);
+    color: rgb(43, 73, 206);
+    height: 100%;
+    border-radius: 7px;
+}
+
+
+.container1{
+    font-size: 4vh;
+    text-align: center;
+    width: 90px;
+    height: 80px;
+    display: block;
+    margin: 2px;   
+    background-color: black;
+    cursor: pointer;
+}
+
+.container1:hover{
+    transition:.2s;
+    transform:scale(1.2);
+    cursor:pointer;
+    z-index:2;
+    border-radius: 6px;
+}
+
+.rodape{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+
+ul{
+    display: flex;
+    display: inline-flex;
+    margin: 40px;
+}
+
+.nao-metal{
+    margin-right: 50px;
+    color: rgb(104, 233, 104);
+}
+
+li { 
+    list-style-type: none; 
+}
+
+.gas-nobre{
+    margin-right: 50px;
+    color: rgb(68, 68, 184);
+}
+
+.metal-alcalino{
+    margin-right: 50px;
+    color: green;
+    
+}
+
+.metal-alcalino-terroso{
+    margin-right: 50px;
+    color: pink;
+    
+}
+
+.semimetal{
+    margin-right: 50px;
+    color: rgb(68, 68, 196);
+}
+
+.halogenio{
+    margin-right: 50px;
+    color: rgb(46, 138, 138);
+}
+
+.outros-metais{
+    margin-right: 50px;
+    color: grey;
+}
+
+.metal-transicao{
+    margin-right: 50px;
+    color: rgb(66, 66, 189);
+}
+
+.lantanideo{
+    margin-right: 50px;
+    color: rgb(64, 64, 192);
+}
+
+.actinidio{
+    margin-right: 50px;
+    color: rgb(70, 70, 189);
+}
+
+
+table{
+    margin: 40px auto;
+    border-collapse: collapse;
+    width: 100vh;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .25);    
+    font-size: 15px;
+}
+
+table tr:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    transition:0.5s;
+    background-color: aqua;
+
+}
+
+
+table caption{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: 200;
+    color: rgb(47, 127, 202);
+}
+
+table th,
+table td{
+    padding: 15px 10px;
+    text-align: center;
+    color: rgba(255, 102, 0, 0.719);
+}
+
+table tr{
+    border: 1px solid rgba(48, 47, 47, 0.384);
+}
+
+
+.box{
+    width: 10px;
+    height: 10px;
+    background-color:  rgb(104, 233, 104);
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.box2{
+    width: 10px;
+    height: 10px;
+   background-color: rgb(68, 68, 184);;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.box3{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.box4{
+    width: 10px;
+    height: 10px;
+    background-color: pink;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.box5{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(68, 68, 196);
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.box6{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(46, 138, 138);
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.box7{
+    width: 10px;
+    height: 10px;
+    background-color: grey;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.box8{
+    width: 10px;
+    height: 10px;
+    background-color:rgb(64, 64, 192); 
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.box9{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(64, 64, 192);
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.box10{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(64, 64, 192);
+    margin-top: 5px;
+    margin-right: 5px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
